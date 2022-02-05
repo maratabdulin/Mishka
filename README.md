@@ -3,3 +3,5 @@
 
 * Студент: [Марат Абдулин](https://up.htmlacademy.ru/adaptive/24/user/1893699).
 * Наставник: [Алексей Елькин](https://htmlacademy.ru/profile/id604209).
+
+[Просмотр сайта](https://maratabdulin.github.io/Mishka-adaptive-site/) 
