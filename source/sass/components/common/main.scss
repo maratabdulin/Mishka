@@ -1,0 +1,158 @@
+.main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $tablet-width) {
+    position: relative;
+    z-index: 2;
+    top: -$header-second-string;
+  }
+}
+
+.main__title {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 16px 0;
+  background-color: $border-color;
+  font-size: 27px;
+  line-height: 30px;
+  min-height: 177px;
+  color: $text-title;
+
+  @media (min-width: $tablet-width) {
+    min-height: 240px;
+    font-size: 43px;
+    line-height: 50px;
+    margin-bottom: 53px;
+    padding-top: 14px;
+    box-sizing: border-box;
+  }
+
+  @media (min-width: $desktop-width) {
+    min-height: 272px;
+    font-size: 53px;
+    line-height: 57px;
+    margin-bottom: 98px;
+    padding: 0 0 11px 0;
+  }
+
+  &::before {
+    @media (min-width: $tablet-width) {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: url("./../img/zigzag-fill-desktop.svg") repeat-x;
+      background-size: contain;
+      height: 24px;
+      z-index: 3;
+    }
+
+    @media (min-width: $desktop-width) {
+      height: 34px;
+    }
+  }
+}
+
+.main__main-header {
+  margin-bottom: 31px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 54px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 71px;
+  }
+}
+
+.main__featured {
+  margin-bottom: 73px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 125px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 164px;
+  }
+}
+
+.main__about {
+  margin-bottom: 58px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 63px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 88px;
+  }
+}
+
+.main__review {
+  margin-bottom: 89px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 116px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 161px;
+  }
+}
+
+.main__contacts {
+  margin-bottom: 39px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 11px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 59px;
+  }
+}
+
+.main__catalog {
+  margin-bottom: 30px;
+  margin-top: 15px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 53px;
+    margin-top: 12px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 57px;
+  }
+}
+
+.main__video {
+  margin: 0 30px 58px 30px;
+
+  @media (min-width: $tablet-width) {
+    margin: 0 50px 18px 50px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 0 auto 59px auto;
+    min-width: $desktop-page-width;
+  }
+}
+
+.main__order {
+  margin-bottom: 55px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 5px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 3px;
+  }
+}
